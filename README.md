@@ -74,6 +74,7 @@ Avant de commencer, assurez-vous d’avoir installé :
     ```bash
     expo start
     ```
+    **Note :** Si vous utilisez un appareil physique pour tester et que la connexion automatique via QR code ne fonctionne pas, assurez-vous que votre téléphone et votre ordinateur sont sur le même réseau Wi-Fi. Il peut également être nécessaire de configurer Expo pour utiliser l'adresse IP de votre machine. Souvent, Expo vous proposera de basculer sur "Tunnel" ou "LAN" ; choisissez "LAN" et utilisez l'adresse IP affichée (par exemple, `exp://192.168.1.X:19000`).
 
 4.  **Scanner le QR code :**
     - Ouvrez l'application Expo Go sur votre téléphone.
