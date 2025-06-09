@@ -42,50 +42,76 @@ Cette application mobile permet de récupérer les données GPS d'un appareil Io
 
 Avant de commencer, assurez-vous d’avoir installé :
 
-- [Node.js](https://nodejs.org/) (version LTS recommandée)
-- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Node.js (version LTS recommandée).
+- npm (généralement inclus avec Node.js) ou Yarn.
+- Expo CLI :
+  ```bash
+  npm install -g expo-cli
+  ```
+- Application mobile Expo Go (iOS ou Android).
+- (Optionnel) Un simulateur iOS/Android pour les tests locaux.
 
-```bash
-npm install -g expo-cli
-Application mobile Expo Go (iOS ou Android)
-(Optionnel) Un simulateur iOS/Android pour test local
-📦 Installation
-Cloner le dépôt
-Copier
-git clone https://github.com/abougma/Mobible-app-iot.git
-cd Mobible-app-iot
-Installer les dépendances
-Copier
-npm install
-# ou avec yarn
-yarn install
-Lancer le projet
-Copier
-expo start
-Scanner le QR code
-Ouvrir Expo Go sur votre téléphone
-Scanner le QR code affiché dans le terminal ou la page web
-📱 Utilisation
+---
+
+## 📦 Installation
+
+1.  **Cloner le dépôt :**
+    ```bash
+    git clone https://github.com/abougma/Mobible-app-iot.git
+    cd Mobible-app-iot
+    ```
+
+2.  **Installer les dépendances :**
+    ```bash
+    npm install
+    ```
+    ou avec Yarn :
+    ```bash
+    yarn install
+    ```
+
+3.  **Lancer le projet :**
+    ```bash
+    expo start
+    ```
+
+4.  **Scanner le QR code :**
+    - Ouvrez l'application Expo Go sur votre téléphone.
+    - Scannez le QR code affiché dans le terminal ou la page web qui s'ouvre.
+
+---
+
+## 📱 Utilisation
+
 Une fois l’application lancée, vous pourrez :
 
-Vous connecter ou créer un compte
-Accéder à la carte interactive
-Voir les coordonnées GPS de votre appareil IoT
-Naviguer entre les onglets via le menu du bas
-🤝 Contribuer
+- Vous connecter ou créer un compte.
+- Accéder à la carte interactive.
+- Voir les coordonnées GPS de votre appareil IoT.
+- Naviguer entre les onglets via le menu du bas.
+
+---
+
+## 🤝 Contribuer
+
 Les contributions sont les bienvenues !
 
-Forkez le projet
-Créez une branche : git checkout -b feature/NouvelleFonctionnalite
-Commitez vos modifications : git commit -m "Ajout de la fonctionnalité X"
-Poussez la branche : git push origin feature/NouvelleFonctionnalite
-Ouvrez une Pull Request
-📄 Licence
+1. Forkez le projet.
+2. Créez une branche : `git checkout -b feature/NouvelleFonctionnalite`.
+3. Commitez vos modifications : `git commit -m "Ajout de la fonctionnalité X"`.
+4. Poussez la branche : `git push origin feature/NouvelleFonctionnalite`.
+5. Ouvrez une Pull Request.
+
+---
+
+## 📄 Licence
+
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d’informations.
 
-👨‍💻 Auteur
+---
+
+## 👨‍💻 Auteur
+
 Bougma Armel
 
 LinkedIn | GitHub
-
