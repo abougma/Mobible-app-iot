@@ -38,3 +38,5 @@ Instructions pour installer le projet et ses dépendances.
 npm install
 # ou
 pip install -r requirements.txt
+
+3.  **Lancer le projet :**
